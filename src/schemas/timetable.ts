@@ -19,28 +19,28 @@ const TimetableTimeslotSchema = z.object({
   title: z.string(),
   abstract: z.string().nullable(),
   track: TimetableTrackSchema,
-  starts_at: z.string().datetime({ offset: true }),
+  starts_at: z.iso.datetime({ offset: true }),
   length_min: z.number().int(),
 });
 
 // timetable内の talk エントリ（セッション）
 const TimetableTalkSchema = z.object({
   type: z.literal("talk"),
-  uuid: z.string().uuid(),
-  url: z.string().url(),
+  uuid: z.uuid(),
+  url: z.url(),
   title: z.string(),
   abstract: z.string(),
   accepted: z.boolean(),
   track: TimetableTrackSchema,
-  starts_at: z.string().datetime({ offset: true }),
+  starts_at: z.iso.datetime({ offset: true }),
   length_min: z.number().int(),
   tags: z.array(TagSchema),
   speaker: SpeakerSchema,
   fav: z.boolean(),
   fav_count: z.number().int(),
   feedback: FeedbackSchema,
-  slide_url: z.string().url().optional(),
-  blog_url: z.string().url().optional(),
+  slide_url: z.url().optional(),
+  blog_url: z.url().optional(),
 });
 
 export const TimetableEntrySchema = z.discriminatedUnion("type", [

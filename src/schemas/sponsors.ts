@@ -1,13 +1,13 @@
 import { z } from "zod";
 
 export const SponsorSchema = z.object({
-  id: z.string().uuid(),
+  id: z.uuid(),
   name: z.string(),
   kana: z.string(),
-  url: z.string().url(),
+  url: z.url(),
   pr: z.string(),
   twitter: z.string().optional(),
-  avatar: z.string().url().optional(),
+  avatar: z.url().optional(),
 });
 
 export const SponsorPlanSchema = z.object({

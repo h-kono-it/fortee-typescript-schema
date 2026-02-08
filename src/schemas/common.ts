@@ -7,7 +7,7 @@ export const SpeakerSchema = z.object({
   name: z.string(),
   kana: z.string(),
   twitter: z.string().optional(),
-  avatar_url: z.string().url().optional(),
+  avatar_url: z.url().optional(),
 });
 
 // --- 共通: Feedback ---

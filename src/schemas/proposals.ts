@@ -6,17 +6,17 @@ import {
 } from "./common.js";
 
 export const ProposalSchema = z.object({
-  uuid: z.string().uuid(),
-  url: z.string().url(),
+  uuid: z.uuid(),
+  url: z.url(),
   title: z.string(),
   abstract: z.string(),
   accepted: z.boolean(),
   speaker: SpeakerSchema,
-  created: z.string().datetime({ offset: true }),
+  created: z.iso.datetime({ offset: true }),
   timetable: ProposalTimetableSchema.optional(),
   feedback: FeedbackSchema,
-  slide_url: z.string().url().optional(),
-  blog_url: z.string().url().optional(),
+  slide_url: z.url().optional(),
+  blog_url: z.url().optional(),
 });
 
 export const ProposalsSchema = z.object({
