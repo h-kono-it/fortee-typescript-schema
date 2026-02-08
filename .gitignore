@@ -1,6 +1,6 @@
 # project only
 sample/**/*.json
-# !sample/masked/**/*.json # 公開して問題ないか全体精査してから公開
+!sample/masked/**/*.json
 
 # ちょっと恥ずかしいから公開しない
 CLAUDE.md 

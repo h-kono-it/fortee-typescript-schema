@@ -1,0 +1,1173 @@
+{
+  "timetable": [
+    {
+      "type": "timeslot",
+      "uuid": "773866c3-7c9f-41ee-85a2-a144a6f6d714",
+      "title": "受付",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T16:30:00+09:00",
+      "length_min": 30
+    },
+    {
+      "type": "timeslot",
+      "uuid": "193790f1-db5f-4715-84f1-c5a2c59a43e7",
+      "title": "オープニングトーク",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T17:00:00+09:00",
+      "length_min": 15
+    },
+    {
+      "type": "timeslot",
+      "uuid": "96791d78-8316-4acb-bd1e-3ee0d15dcc03",
+      "title": "差し入れ紹介コーナー",
+      "abstract": "皆さんから差し入れしていただいたお酒やおつまみを紹介いただくコーナーです",
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T17:15:00+09:00",
+      "length_min": 15
+    },
+    {
+      "type": "talk",
+      "uuid": "abc6eaaa-718c-4106-b80d-d1b4fd851599",
+      "url": "https://fortee.jp/dummy-event/proposal/abc6eaaa-718c-4106-b80d-d1b4fd851599",
+      "title": "チームで考える学びの共有のすすめ",
+      "abstract": "雑音 哺育 たおす. りょうど 江戸 もちいる ぶん 遺失. うち ちきゅう れつあく あらす 廃墟 せいめい こうちょく.\r\n\r\n指定する 床 検査 あい とうさく じどうし はんそう. 面倒臭い 半額 ふくし かたみち 甲乙. たおす しあつ 漠然 超音波 はい 川底 貴賓.\r\n\r\nきじゅつ りゅうき がくふ. 香り 屈む おきゃくさん ふくせん おろし ふくぶくろ 福祉. 店 妥協する 聴者 ふん.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-08T17:30:00+09:00",
+      "length_min": 40,
+      "tags": [],
+      "speaker": {
+        "name": "森本 由美子",
+        "kana": "ササキ シンジ",
+        "avatar_url": "https://i.pravatar.cc/200?u=2060492332"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "69a3c60b-3088-4c60-a013-5778dfc83f2e",
+      "url": "https://fortee.jp/dummy-event/proposal/69a3c60b-3088-4c60-a013-5778dfc83f2e",
+      "title": "10年後を見据えた生存戦略",
+      "abstract": "しょうじょう けす うんがいい. 手作り 仁 媒介 いち せんたくする 自立 かんそく ゆにゅう. 避ける はなのあな あつかい 差し上げる かんそく 譜面.\r\n\r\nひかくする 天井 かく はなじ 忘れ物 ふん さんぎょう 渦巻き 博物館. 哀れむ 割り箸 墨 そだてる 施設 ふじん. 専門 ちきゅう 面 遮断.\r\n\r\n錠 耐火 延長 聴者 超〜 傑作. おどろく 貴賓 かんえん じじょでん りょこう 一人娘 不可欠 ひふ. おりめ がくふ おかね ひんかく.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T17:30:00+09:00",
+      "length_min": 60,
+      "tags": [],
+      "speaker": {
+        "name": "梶原 洋子",
+        "kana": "ワタナベ シンジ",
+        "twitter": "kjoi1c_tofsmg46",
+        "avatar_url": "https://i.pravatar.cc/200?u=737562325"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "b6ec5cfd-43b6-4536-954b-bcdb33c83c80",
+      "url": "https://fortee.jp/dummy-event/proposal/b6ec5cfd-43b6-4536-954b-bcdb33c83c80",
+      "title": "現場で学んだ挑戦と変容について",
+      "abstract": "懇談 料理人 鋭い. なみだ もよう 背広. ふかさ 先週 ちあん ねばり あっとうする ねんじ 媒介 せいぞう.\r\n\r\nいっかい はちまき 移す こうぞく ちゅうもんする あう こはん 電源 望み. 妥協する こづつみ なおさら. 鶴 空き瓶 妥協する むれる つくる 反則 柱 しばふ かぐ.\r\n\r\n金星 曲 えんちょうする 曲. きんく ちきゅう とふ 貴賓 ほんらい 芽. 火 ふかのう いままで 象牙 ながさき ために 逆 譜面.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-08T18:20:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "小林 杏",
+        "kana": "マツモト サクラ",
+        "avatar_url": "https://i.pravatar.cc/200?u=1119109673"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "1a95796d-7f39-4df5-84de-0676a3637f44",
+      "url": "https://fortee.jp/dummy-event/proposal/1a95796d-7f39-4df5-84de-0676a3637f44",
+      "title": "チームで考える技術的負債との戦いを語る",
+      "abstract": "とくに しゅくん 近視 唄う 風潮. ながさき ひとごみ 生える. ざんぴん 窓 先ず 盛り上がる 地面 機嫌 見当たる 超音波 ごらん ぼくし.\r\n\r\nつばさ 乗せる 量 きもち. ほんるいだ ねばり 唄う 双 愛する. ふくせん 移譲 柱.\r\n\r\nぼくし ふくし しきもう しゅくん. かいじゅう 薬 秘める. ちがい 紛らわしい ねばり あさねぼう すんか たいがい.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T18:40:00+09:00",
+      "length_min": 40,
+      "tags": [],
+      "speaker": {
+        "name": "成田 麻衣子",
+        "kana": "スズキ カオリ",
+        "twitter": "ljfinnhgakdo",
+        "avatar_url": "https://i.pravatar.cc/200?u=412423382"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      },
+      "blog_url": "https://example.com/blog/412423382"
+    },
+    {
+      "type": "talk",
+      "uuid": "061759ba-59a3-47fe-b0d0-1f5f6ea4967a",
+      "url": "https://fortee.jp/dummy-event/proposal/061759ba-59a3-47fe-b0d0-1f5f6ea4967a",
+      "title": "エンジニアとしてのチームビルディングについて",
+      "abstract": "歯 復旧 じしん じょうだん はなのあな おどりば ふたたび. 比較 いち だくりゅう. あさねぼう はりい 糸.\r\n\r\n試験 いっさくじつ 桑原 受付 せんりゅう いままで. つまる けんしゅうせい 毎日. ひふ 部首 あがる かけこむ 面 不可欠 じょうだん.\r\n\r\n風潮 つぐなう かんじる はきだす ひかくする やすい なぞ 背広. 誓い 雰囲気 揺さぶる せいめい. ねんじゅう 拒否 かいたく 掛ける 禍根 りゃくご げんめつ.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T19:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "北村 大介",
+        "kana": "ヨシダ ユウキ",
+        "avatar_url": "https://i.pravatar.cc/200?u=1659847290"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "timeslot",
+      "uuid": "6c9ecabb-c81f-4bc7-87a9-3153a22cfb5c",
+      "title": "クロージングトーク",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-08T20:20:00+09:00",
+      "length_min": 10
+    },
+    {
+      "type": "timeslot",
+      "uuid": "4ff6a737-46eb-4af0-8864-ec8005381143",
+      "title": "受付",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T10:00:00+09:00",
+      "length_min": 30
+    },
+    {
+      "type": "timeslot",
+      "uuid": "85ad01fc-8697-42df-9d2d-c1516a8f7707",
+      "title": "オープニングトーク",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T10:30:00+09:00",
+      "length_min": 20
+    },
+    {
+      "type": "talk",
+      "uuid": "f71e4012-8d4f-4d4c-98fa-fee4695e0533",
+      "url": "https://fortee.jp/dummy-event/proposal/f71e4012-8d4f-4d4c-98fa-fee4695e0533",
+      "title": "変化する時代の挑戦と変容を考える",
+      "abstract": "仕事 廉価 施設 飽くまでも 早々 かおつき. しゃくや 聴者 まもる 桑原 迷路 ひとごみ むく. きぼうする ちえん 並 りりしい 金星 やさしい.\r\n\r\n風船 桑原 しょうりゃく かんじる. ぶそう たいがい 程 高値 会議 待合 廃棄. しあつ ゆにゅう おおごえ 掛ける.\r\n\r\nとうひょうする せんげん しゅしょう 暗い 延長 あらじお 旧姓. 慶弔 自宅 いままで 牛乳 みさき. ほんらい きいろ たいほう かちゅう.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T11:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "佐々木 ゆかり",
+        "kana": "ヤマダ リョウ",
+        "twitter": "9jp9jj9l5kl5ibc",
+        "avatar_url": "https://i.pravatar.cc/200?u=841414171"
+      },
+      "fav": false,
+      "fav_count": 4,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "8138668f-9b71-41ee-a864-53c6cc943817",
+      "url": "https://fortee.jp/dummy-event/proposal/8138668f-9b71-41ee-a864-53c6cc943817",
+      "title": "エンジニアとしての学びの共有を語る",
+      "abstract": "救急車 休日 きげんご そんけい きとく まぎらす. いっさくじつ 謙虚 おどりば あい おくれる そだてる 魅力. やぶれる 陳列室 備える しんじゅく きじゅつ.\r\n\r\nはじめて シアトルし よわよわしい え あわ 継承 弱点 こうぎょう. いつ頃 みき よぼう がいよう ついたち 問題 きょだい みなもと 敬語. ろくおん 馬 ちょくせつ 基盤 はりい 背広 天井.\r\n\r\n請ける 学者 どうけつ. せいぞう つぎつぎ やぶれる 滝 着く ふさい 母 推奨 敬語 しあつ. じじょでん つうこん しんし 察知 審判 こうせい フランス人.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T11:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "松島 孝子",
+        "kana": "ヨシダ ショウタ",
+        "twitter": "guri1c_oahkep49",
+        "avatar_url": "https://i.pravatar.cc/200?u=1939310530"
+      },
+      "fav": false,
+      "fav_count": 6,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1939310530",
+      "blog_url": "https://example.com/blog/1939310530"
+    },
+    {
+      "type": "talk",
+      "uuid": "b9a560a4-d5c9-4627-a87f-ce1becdb8c2b",
+      "url": "https://fortee.jp/dummy-event/proposal/b9a560a4-d5c9-4627-a87f-ce1becdb8c2b",
+      "title": "失敗から得た挑戦と変容を語る",
+      "abstract": "壮年 通す ぶっきょう 首 ざんぴん ちゅうとはんぱ 禅寺 歯 たれる 匿名. かたみち 杏 地面 ねばり てんぷく 壮年. 凝固 川底 親切 ふくせん たいほう じっかん 柱 賀状 思い遣り しつ.\r\n\r\nめいよ ちんもく さくにゅう 左手. おとろえる しょうげき あわれ. がぞう むぜい 芽 休日 かいたく ゆにゅう 老齢.\r\n\r\nかおつき かんりょうてき いさぎよい 果てる 丼 しゃこ ししょく 希望する もちいる せっとく. しきもう 警官 堀川 ねんがん 浅い ほんそう ひはん 春休み かいほうする つくる. かんさい 活用 米国 電源 匿名 形 きもち 望み ゆにゅう.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T11:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "古田 辰雄",
+        "kana": "イノウエ リョウ",
+        "twitter": "km4i62n5c",
+        "avatar_url": "https://i.pravatar.cc/200?u=1105880174"
+      },
+      "fav": false,
+      "fav_count": 5,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1105880174"
+    },
+    {
+      "type": "talk",
+      "uuid": "45e92e9f-e788-4b1d-86be-c1dd36e7e6cb",
+      "url": "https://fortee.jp/dummy-event/proposal/45e92e9f-e788-4b1d-86be-c1dd36e7e6cb",
+      "title": "チームで考えるチームビルディングを語る",
+      "abstract": "不可欠 分ける むらさきいろ つくる 巡回 数える よすみ ぼうず. ちらかす けいかん おどりば 超音波 なんべい. 扇 こたえる おどろく 宜しく せんじょうざい しざい 報じる みずいろ.\r\n\r\nたて 宜しく ゆるむ 頑張れ. 母 もうす 十台 にんい 桜色 運 あらじお ごじゅう 希望する. 毎日 こうぎょう しめらせる 煩い.\r\n\r\n店 ふゆかい みなもと 歌謡 奔放 まほうつかい 福祉. 抑制 あしくび ふうふ 活用 糸 香り たくす 性格 けしき. かいせい 反則 好奇心 果てる 店 あらしお しっぺい.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T11:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "米山 直人",
+        "kana": "ササキ カオリ",
+        "twitter": "ipjinn_ssugkj",
+        "avatar_url": "https://i.pravatar.cc/200?u=1360522592"
+      },
+      "fav": false,
+      "fav_count": 3,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1360522592"
+    },
+    {
+      "type": "talk",
+      "uuid": "574dfb9c-008b-4ef1-bf29-e9ad8d9548be",
+      "url": "https://fortee.jp/dummy-event/proposal/574dfb9c-008b-4ef1-bf29-e9ad8d9548be",
+      "title": "明日から使える技術的負債との戦いの実践",
+      "abstract": "先週 ほうせき せん かわさき 間隔 首 そうだん いたずら 揺さぶる. 貫く こくひん 慶弔 なげすてる けいかん たれる せいかん 妥協する もよう 察知. えんちょうする 気持ちいい 交錯 七つ 魅力 ふさい.\r\n\r\nまぎらす かいほうする みき ねんがじょう おんとう. 渦巻き ほんるいだ 切迫 そうぐう 普段 かざる おおごえ おうしゅう. きずつく 写す けいけんしゃ おどろく 輸出 色々 ひとごみ しりつ こうえん 間隔.\r\n\r\nくまもとけん 悪気 こうえん. あまい みき 緊張する 歯を磨く. 哺育 みき 魅力 二巻 みき 備える 歯 怒鳴る.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T12:00:00+09:00",
+      "length_min": 10,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        },
+        {
+          "name": "ランチセッション",
+          "color_text": "#ffffff",
+          "color_background": "#50cd89"
+        }
+      ],
+      "speaker": {
+        "name": "山岡 悠",
+        "kana": "ナカムラ コウヘイ",
+        "twitter": "j34p9061",
+        "avatar_url": "https://i.pravatar.cc/200?u=1951726287"
+      },
+      "fav": false,
+      "fav_count": 1,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "5991235d-1e28-40f2-8aaf-f97b59424d90",
+      "url": "https://fortee.jp/dummy-event/proposal/5991235d-1e28-40f2-8aaf-f97b59424d90",
+      "title": "変化する時代のスキルの磨き方を語る",
+      "abstract": "ふてい しざい いなか はい ひんきゃく 縛る まつ みなもと ぜんにほん. 遺失 こくふくする 賀状 あらじお. 愛国心 学院 はんけん 都合 はなはだ 禅寺 黒板.\r\n\r\nたれる 疾走 十台 つばさ 反則. 試験 伐採 こうつう 投資 洗濯屋 いし ごじゅう いち. 締まる 迫る せいかん.\r\n\r\n既に フランス語 ふきつ ちょうせん 無糖 壁 〜亭. おとこのこ 学院 たまご もくひょう. 救急車 おなか 仰々しい しんぞう 舞踏 忍者 隆起 がいよう.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T12:10:00+09:00",
+      "length_min": 10,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        },
+        {
+          "name": "ランチセッション",
+          "color_text": "#ffffff",
+          "color_background": "#50cd89"
+        }
+      ],
+      "speaker": {
+        "name": "大槻 颯真",
+        "kana": "ヤマダ ミサキ",
+        "twitter": "j1xp72mljssu",
+        "avatar_url": "https://i.pravatar.cc/200?u=1689127351"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "d020eced-901b-4b53-8599-4516a875dbba",
+      "url": "https://fortee.jp/dummy-event/proposal/d020eced-901b-4b53-8599-4516a875dbba",
+      "title": "失敗から得たキャリア戦略について",
+      "abstract": "締まる かんせつ 旧姓. 年次 しっぺい そんけい さきまわり ざぜん 超〜 かいころく あらしお 液体 せいじょう. ほうせき こうおつ ふくし 残業 たいさ ぜんにほん ぼきん 間接 ひふ りょうど.\r\n\r\nれいてん 沖縄 つばさ 大尉 敬語 しんし 封筒 よそく おりめ 歯を磨く. ほうげん ねんじ 継承 配慮 せんりゅう 自宅 ハチのす. 体重 検査 となえる 動揺 大間違い かんどうする.\r\n\r\nかいころく あまい 冬休み 勝手 りゅうき 重い. のむ ろくおん ひきざん 反則. じょうじゅん あっとうする 六 金縛り てのこう ちらかす.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T12:20:00+09:00",
+      "length_min": 10,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        },
+        {
+          "name": "ランチセッション",
+          "color_text": "#ffffff",
+          "color_background": "#50cd89"
+        }
+      ],
+      "speaker": {
+        "name": "沼田 麻衣",
+        "kana": "イトウ タロウ",
+        "twitter": "iwzor4_gevid245",
+        "avatar_url": "https://i.pravatar.cc/200?u=1585788804"
+      },
+      "fav": false,
+      "fav_count": 1,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "fec76dde-413f-411b-9dff-52d6a4cd522e",
+      "url": "https://fortee.jp/dummy-event/proposal/fec76dde-413f-411b-9dff-52d6a4cd522e",
+      "title": "チームで考える組織との関わり方を考える",
+      "abstract": "液体 さいぼう 勝手 めいし けいかん だいがくいんせい 貨幣. 可愛い 会議 かんしん さいほう 人性. おととい しばふ 六 きんく 浅い 運命 一文字 かん 鋭い.\r\n\r\nちょうりょく 電話 仁 ぞくご 弱点. かざる しざい がぞう ぶっきょう. 博物館 甲乙 秘める.\r\n\r\n投資 あまい 何度 曲 りゅうき りりしい ついたち じしょ. おおちがい かく めいわくめーる たくす 力 しゅくん. やぶれる ちゅうもんする おどろく ことばつき 日刊 なみだ.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T12:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "吉野 亮",
+        "kana": "スズキ リョウ",
+        "avatar_url": "https://i.pravatar.cc/200?u=1934206962"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "834e1312-7d4c-4b55-9c20-cece72d892bc",
+      "url": "https://fortee.jp/dummy-event/proposal/834e1312-7d4c-4b55-9c20-cece72d892bc",
+      "title": "チームで考えるスキルの磨き方",
+      "abstract": "飽くまでも うんがいい かんかつ. ざぜん 教える 同音異義語 風船 あらす 拒否 底 となえる 羊毛 形. 悲しみ ちんみ 扇 しざい 品詞 火 貨物船 恨み 逆 むらさきいろ.\r\n\r\nはっぽう 焦がす ひふ 非難 日欧 きょだい 貴賓 まつ 迷路. いく せいしん 魔術 もくひょう 休日 鍋 構える 困難 しあとるし. はなはだ 迷子 生える 金.\r\n\r\n奉仕 日欧 碁 はい 恨み 迷子 この頃 所. 墨 入江 きょだい ちんもく. つばさ 老齢 胃腸 つぎつぎ 縛る ざぜん 遺失.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T13:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "渡邊 明日香",
+        "kana": "ササキ アカネ",
+        "twitter": "ts4hlz_k26qg4",
+        "avatar_url": "https://i.pravatar.cc/200?u=1700738352"
+      },
+      "fav": false,
+      "fav_count": 6,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1700738352"
+    },
+    {
+      "type": "talk",
+      "uuid": "fdb2a3c0-af0e-4405-856f-8d90e0c900c3",
+      "url": "https://fortee.jp/dummy-event/proposal/fdb2a3c0-af0e-4405-856f-8d90e0c900c3",
+      "title": "技術と向き合うチームビルディング〜私の場合〜",
+      "abstract": "送る 逆 しめらせる 禍根 扇 だいがくいんせい 約する こいぬ なぞ 悪気. 暇 となえる ふさい あらあらしい かせぎ 間接 金縛り. ちかく 困難 碁 じょうじゅん とむ しききん しんじゅく へいせい.\r\n\r\nぼきん 配慮 秘める 機嫌 ふん. 徳川 きげんご こころみる 火 浅い こくみん 無敵 締まる. おくれる 疎外 伝統 よぼう 人口.\r\n\r\n漂う とふ こくふくする しばふ 見当たる のうみん 愛する 休日. ひめさま ないしょばなし にんい 毎日. 聴者 はかる たいがい そうぐう 見返す みなと はやて かせぎ.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T13:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "石原 健太郎",
+        "kana": "アベ コウヘイ",
+        "avatar_url": "https://i.pravatar.cc/200?u=1894337099"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "602f78ba-0581-4ce4-be90-ecbf53b0f33e",
+      "url": "https://fortee.jp/dummy-event/proposal/602f78ba-0581-4ce4-be90-ecbf53b0f33e",
+      "title": "明日から使える生存戦略と向き合う",
+      "abstract": "さいほう ひはん 栞 燃やす ちょさくけん よわよわしい ふかさ かんどうする めいがら. 終点 俵 こうばん かいそく きょうどう みなと ために 出かける. こはん そうぐう ちょくせつ 六 ほうせき はんけん 店 破産.\r\n\r\n同音異義語 縛る いなか ことばつき. ねんがん 察知 堀川 沖縄 病院 けいけんしゃ ぜんにほん. 汚す おととい 通す いさぎよい.\r\n\r\nたて 始まる やさい れいてん けんしゅうせい 急騰 魅力 ついたち 評価 不思議. しざい 無糖 しめらせる しあつ 雄犬 いさぎよい とくに がんい 移動 しあとるし. かど 隆起 しゃくや 早々 胃 自立.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T13:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "花田 浩之",
+        "kana": "ナカムラ ハナコ",
+        "twitter": "9jh9kvfeykep",
+        "avatar_url": "https://i.pravatar.cc/200?u=1144734827"
+      },
+      "fav": false,
+      "fav_count": 9,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "da884550-443f-468f-bb28-dd58e190abd6",
+      "url": "https://fortee.jp/dummy-event/proposal/da884550-443f-468f-bb28-dd58e190abd6",
+      "title": "変化する時代の学びの共有を考える",
+      "abstract": "歯を磨く 半額 はりい ようい はなのあな ために なみだ. かいせい 博物館 伝統. 察知 おととい ゆにゅう すける 早々 へいがい 始まる 早々.\r\n\r\n貨物船 約 とう 冬休み ひんきゃく 扇. 底 お盆 たす しめらせる 大丈夫. ぼくし 残業 忘れ物 間隔 しゃっか.\r\n\r\n推奨 恨み 浅い 電話 閉じる こうつう 没頭 傑作. たいさ 会議 雑音. 右利き 山葵 しゅいん れつあく 学院 機嫌 ほ 鍋.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T13:30:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "内田 修",
+        "kana": "ヤマダ ショウタ",
+        "twitter": "9mw9nj_i3yidq6",
+        "avatar_url": "https://i.pravatar.cc/200?u=981918931"
+      },
+      "fav": false,
+      "fav_count": 2,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "59c58966-ea7a-476f-90fb-1c9bee35686c",
+      "url": "https://fortee.jp/dummy-event/proposal/59c58966-ea7a-476f-90fb-1c9bee35686c",
+      "title": "10年後を見据えた技術的負債との戦いの実践",
+      "abstract": "駆け出す 天井 じしん みなもと 蛇. 無糖 沖縄 え ちょうりょく せいぞう しゅいん. へいせい 普及 見返す 重い 委員.\r\n\r\n境 こいぬ 程. かわさき 動揺 ひふ 奉仕 傑作 見返す. 非難 せいしん さいげつ 馬 避ける 延長 せんげん とうひょうする.\r\n\r\n移動 構える 活用 たいさ 栄誉. はっぽう はなのあな かんどうする 重い. きょだい 一文字 金星.",
+      "accepted": true,
+      "track": {
+        "name": "きのこトークスペース",
+        "sort": 3
+      },
+      "starts_at": "2025-03-09T13:30:00+09:00",
+      "length_min": 50,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "古賀 心結",
+        "kana": "ワタナベ コウヘイ",
+        "twitter": "sit_ldgrp3",
+        "avatar_url": "https://i.pravatar.cc/200?u=945400685"
+      },
+      "fav": false,
+      "fav_count": 2,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "e07fd081-7f6e-46f9-9e90-a94095b6fe2e",
+      "url": "https://fortee.jp/dummy-event/proposal/e07fd081-7f6e-46f9-9e90-a94095b6fe2e",
+      "title": "技術と向き合うチームビルディングと向き合う",
+      "abstract": "はちのす 品詞 そうぐう. 既に ついたち ちんみ 運命 髪の毛 つみ せっとく ふかのう 廃棄. 旧姓 あがる ふかのう.\r\n\r\nこづつみ 請ける 模型 拒否. ふくし びんぼう かいぞく 店 りゃくご. すいせん とうき あがる つなひき きゅうりょう 殻 教える かんせつ よそく.\r\n\r\nふかぶん やさしい 俵 奔放 りゅうき となえる 飽くまでも いじん. 乗せる 一生 宝くじ じぶん 二つ 豪華 順序. 恥ずかしがる 抑制 沖縄 なげすてる.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T14:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "高瀬 和子",
+        "kana": "アベ ユウキ",
+        "twitter": "pzdi1c_ibc56",
+        "avatar_url": "https://i.pravatar.cc/200?u=1790118099"
+      },
+      "fav": false,
+      "fav_count": 4,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "b07437e9-15be-405c-a9ba-7e2fa7892c79",
+      "url": "https://fortee.jp/dummy-event/proposal/b07437e9-15be-405c-a9ba-7e2fa7892c79",
+      "title": "技術と向き合う生存戦略〜私の場合〜",
+      "abstract": "しょうげき かせぎ きょうどう 審判 写す 非難 愛国心 遮断 仕方がない みつ. やさしい 大尉 柱 びんぼう 廃墟. みなもと よわよわしい 指定する 賛成 写す けいけんしゃ ぞくご せいぞう たつ ひめさま.\r\n\r\n江戸 果樹 糸. さと 頂く 減俸 機嫌 延長 すみ. 失う ふんしゃ ふん.\r\n\r\n七つ えんちょうする たいやく よすみ. まつり 警官 おおごえ もはん 不可欠 しゃっか れいせい 没頭. いっさくじつ とうき しゅしょう なんべい 彼女 聴者 徳川 宝くじ きずつく.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T14:00:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "長野 駿",
+        "kana": "カトウ エミ",
+        "twitter": "gcpi7yidq",
+        "avatar_url": "https://i.pravatar.cc/200?u=175651429"
+      },
+      "fav": false,
+      "fav_count": 1,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/175651429"
+    },
+    {
+      "type": "talk",
+      "uuid": "b690b8ad-7c51-4346-b2c8-7294fb9d0586",
+      "url": "https://fortee.jp/dummy-event/proposal/b690b8ad-7c51-4346-b2c8-7294fb9d0586",
+      "title": "チームで考える働き方の選択〜私の場合〜",
+      "abstract": "なおさら かぜ 面積 移す よくあつ 満潮 ふさい 軒. じこ けいじばん みなもと 軒 困難 じっかん. ふじん きとく いっかい 助手 電源 締まる しめらせる.\r\n\r\n無糖 不況 じょうだん 日欧 聴者. あらあらしい 普及 賢明 鶴 大文字 譜面 迷子 見返す ざぜん 約する. 妻 にる つなひき.\r\n\r\n面積 匿名 果樹 なげすてる. ひめさま ごじゅう ふくせん じしょ こたえる ひんしつ かいぞく. かっこう 洋服 げんめつ なおさら 限る あさねぼう.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T14:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "梅田 修",
+        "kana": "スズキ ナオキ",
+        "twitter": "j34nj338",
+        "avatar_url": "https://i.pravatar.cc/200?u=1585452242"
+      },
+      "fav": false,
+      "fav_count": 13,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "46390587-9195-4445-853b-f1f886aba445",
+      "url": "https://fortee.jp/dummy-event/proposal/46390587-9195-4445-853b-f1f886aba445",
+      "title": "技術と向き合うチームビルディングを語る",
+      "abstract": "大間違い あしくび 助手 かく りゃくず 敬語 ねんじゅう だいどころ. たくす うち あらあらしい 江戸. きゅうりょう 家具 酸っぱい 交錯 ほ 競艇 つく 七つ ようじ 順序.\r\n\r\n抑制 のうみん 縛る 出版. 博物館 あまる 機嫌 希望する 滝 礎 もよう. 動揺 まつり まほうつかい 合う さいぼう 書き方 あう 超音波 警官 ふさい.\r\n\r\nしゅくん 忘れ物 えんちょうする いし 通す 減俸. 無敵 ふんしゃ 化粧 りゃくず つくる 察知 謙虚 すみ 象牙 皇太子妃. 比較 しゅしょう 福祉 地下街.",
+      "accepted": true,
+      "track": {
+        "name": "きのこトークスペース",
+        "sort": 3
+      },
+      "starts_at": "2025-03-09T14:30:00+09:00",
+      "length_min": 50,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "奧田 拓海",
+        "kana": "アベ カオリ",
+        "twitter": "jirlmf15",
+        "avatar_url": "https://i.pravatar.cc/200?u=302286599"
+      },
+      "fav": false,
+      "fav_count": 1,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "b0e03225-39f4-4825-9774-62b3fde2b3af",
+      "url": "https://fortee.jp/dummy-event/proposal/b0e03225-39f4-4825-9774-62b3fde2b3af",
+      "title": "明日から使える挑戦と変容",
+      "abstract": "賛成 いっかい しっぷう 限る つぐなう ぞうえん ごらく 難しい いさぎよい. あつかい 生える ふきつ しょうじょう 閉める 陳列室 病院 泳ぐ. 試験 二つ 移す 貫く 恨み 風潮 そあく 詰め込む かちゅう.\r\n\r\nざんぴん 見返す ちんみ ふうふ. 燃やす 入江 巡回 果樹 思い遣り けす さいばん 号. じぞう いっさくじつ こうとう 寮生 運 やぶれる.\r\n\r\nしんぞう 左手 とうとい 伐採. たす 蛇 そだてる. ちょくせつ 堀川 礎 専門 てんぷく 満潮 壊す 金 所 となえる.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T14:30:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "福原 翼",
+        "kana": "シミズ ヒロシ",
+        "twitter": "hlzs9g_u14qg457",
+        "avatar_url": "https://i.pravatar.cc/200?u=267076777"
+      },
+      "fav": false,
+      "fav_count": 4,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "3a234e2f-eb41-4688-bd8c-3a25c7e28090",
+      "url": "https://fortee.jp/dummy-event/proposal/3a234e2f-eb41-4688-bd8c-3a25c7e28090",
+      "title": "キャリアを支えるチームビルディングの実践",
+      "abstract": "見返す しっぺい いじん 乗せる. 可愛い 検査 疾走 程 提案する. へいがい かいそく ようい 約する ふじ山 くまもとけん 日刊 平安 かいころく こうつう.\r\n\r\nちがい 洋服 いつ頃 まもる いままで じぶん 地下街. 堀川 とうほう 擬装 迫る 携帯 しんじゅく 太る 主に たらす こい. みずいろ ふきつ れいぞうこ 書き方 あさねぼう.\r\n\r\n紛らわしい とうほう くら きゅうりょう すみ え だいどころ だいどころ. 思い遣り ちえん さいほう 華やか 廃棄 ざせき 子守歌. ふじ山 びんぼう 通す ようじ そんけい つぐなう 地下街 壮年.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T15:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "永井 結菜",
+        "kana": "ヤマグチ コウヘイ",
+        "twitter": "k6lfexo23g1v59",
+        "avatar_url": "https://i.pravatar.cc/200?u=498378298"
+      },
+      "fav": false,
+      "fav_count": 7,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/498378298"
+    },
+    {
+      "type": "talk",
+      "uuid": "ee396eb5-27bf-4e15-bbac-f23b1b8117c5",
+      "url": "https://fortee.jp/dummy-event/proposal/ee396eb5-27bf-4e15-bbac-f23b1b8117c5",
+      "title": "技術と向き合う成長の軌跡〜私の場合〜",
+      "abstract": "きぼうする めいよ おなか 飽くまでも 糸 半額. おとこのこ 華やか 問題 きょうふ 自立 まんえつ 椅子 人口 仕方がない. 賢明 かい 秘める ふくへい ちゅうもんする つうこん 辞儀する 交錯 副大統領.\r\n\r\n対応 かんさい 下さい ちょう 背広 生える なさけない 生える. こたえる 果樹 やぶれる いち つばさ. 超〜 渦巻き かつぐ 原油 書き方 もはん ふかのう.\r\n\r\n雰囲気 せいめい たれる 甲乙 なおさら やすい 生える 一文字 ねんじ 母. いっこ かく 運命 禅寺 めいし. とめる いち 貨幣 いたずら なさけない 没落.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T15:00:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "伊藤 浩",
+        "kana": "アベ ダイスケ",
+        "twitter": "p72g1686",
+        "avatar_url": "https://i.pravatar.cc/200?u=844806619"
+      },
+      "fav": false,
+      "fav_count": 3,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/844806619"
+    },
+    {
+      "type": "talk",
+      "uuid": "a881bc57-d400-4a1f-b3b1-c29642aec8fe",
+      "url": "https://fortee.jp/dummy-event/proposal/a881bc57-d400-4a1f-b3b1-c29642aec8fe",
+      "title": "10年後を見据えた成長の軌跡を考える",
+      "abstract": "会議 とう 半額 延長 終点 〜亭 始まる. 困難 皇太子妃 高瀬 ちょくせつ よそく はちまき かざる つばさ. わかめ 太る 零す みき むれる 軒 にんい 一文字 碁.\r\n\r\nごらん 煩い 社員 おうしゅう 悪気 こうせい たいりく みき ねんじゅう. 失う 輪郭 ざんぴん 着く しょうかする 燃やす 首 退く ねんがん ねばり. 閉じる きじゅつ かいぞく 胃腸 減俸 塾生 底 所 とうき.\r\n\r\nほうき 累進 栄誉 りゅうき 賢明 なみだ こっせつ 無敵. 瞬く 既に たいこうする こうぞく. むく 模型 墨 シアトルし.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T15:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "長尾 陸",
+        "kana": "キムラ アヤ",
+        "twitter": "or4qxv_lptlgi",
+        "avatar_url": "https://i.pravatar.cc/200?u=1963770915"
+      },
+      "fav": false,
+      "fav_count": 7,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "525612fb-6999-43b9-92d4-52cce751f435",
+      "url": "https://fortee.jp/dummy-event/proposal/525612fb-6999-43b9-92d4-52cce751f435",
+      "title": "キャリアを支えるチームビルディング〜私の場合〜",
+      "abstract": "こっせつ 栄誉 糸 書き方 一人娘 シアトルし がくふ はんそう もうす しゃくや. めいがら がぞう 漂う かんじる 左手 ぞくご こころみる. ふじ山 なんべい 普段 福祉 懇談 しょうげき びんぼう.\r\n\r\n色々 ふうふ じゅうどう きじゅつ. 図説 人柄 凝固 怖い しずむ 通す. 魅力 もちいる 黙る 移す ひがい 会議.\r\n\r\n近視 審判 がんい かちゅう つく いし. しょくん 分ける かんしん 陳列室 はんけん 大尉 せんりゅう おとろえる いたずら. かいじゅう せっとく きげんご きょだい 傑作.",
+      "accepted": true,
+      "track": {
+        "name": "きのこトークスペース",
+        "sort": 3
+      },
+      "starts_at": "2025-03-09T15:30:00+09:00",
+      "length_min": 50,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "岩田 辰雄",
+        "kana": "ヤマグチ コウヘイ",
+        "twitter": "9ns9mfvgrqg456",
+        "avatar_url": "https://i.pravatar.cc/200?u=103197898"
+      },
+      "fav": false,
+      "fav_count": 1,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "4205365d-7ebc-41ff-bb97-75b258274cee",
+      "url": "https://fortee.jp/dummy-event/proposal/4205365d-7ebc-41ff-bb97-75b258274cee",
+      "title": "エンジニアとしての生存戦略について",
+      "abstract": "人口 よぼう こうちょく. 和尚 隆起 社員 たいがい 左右 たんれん おんとう なげすてる. げんめつ あれる 屈む 妥協する どろ 素材 ふきつ じぞう.\r\n\r\n瞬く かおつき 請ける あらしお 栄誉 ついたち 見当たる 下さい ねばる すみ. さきまわり まぎらす しょひょう. 自宅 おどりば 毎日 はなぢ 扇 とちょう.\r\n\r\nふさい つく 日没 たす 一人娘 きょうかい. かんどうする 急騰 くまもとけん はきだす つまる. 瞬く かんそく フランス人 ふじ山 構え 会議 仁 廉価 ようい.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T15:30:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "甲斐 弘子",
+        "kana": "タナカ ハナコ",
+        "twitter": "os5p72_innssu69",
+        "avatar_url": "https://i.pravatar.cc/200?u=427100020"
+      },
+      "fav": false,
+      "fav_count": 1,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "35c38a97-9dfe-408f-8416-01b5c917150a",
+      "url": "https://fortee.jp/dummy-event/proposal/35c38a97-9dfe-408f-8416-01b5c917150a",
+      "title": "技術と向き合うチームビルディングを語る",
+      "abstract": "運 壊す どうけつ ぶそう ほうき 全日本 ゆにゅう 指定する きげんご. かんえん 塾生 請ける 妻 始まる もちいる. 号 のぞいて 芽 同音異義語 きょだい あわ.\r\n\r\nちゅうもんする 先ず ほうき 締まる 糸 受付 しききん そだてる 並 好き. 皇太子妃 じぎする 桜色 てのこう. むく 約 ねんじゅう かつぐ 迫る 原因 縛る 同僚.\r\n\r\n雰囲気 れいてん 消す いっぱく すける. かいほうする 料理人 ゆるむ. 漂う ようじ みぎて 彼女 哺育 交錯 洗剤 請ける 帝 かいじゅう.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T16:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "遠藤 崇",
+        "kana": "アベ カオリ",
+        "twitter": "p72oowfkassu",
+        "avatar_url": "https://i.pravatar.cc/200?u=1630383399"
+      },
+      "fav": false,
+      "fav_count": 2,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1630383399"
+    },
+    {
+      "type": "talk",
+      "uuid": "05012b19-ece9-41af-9bad-1a8bee733d84",
+      "url": "https://fortee.jp/dummy-event/proposal/05012b19-ece9-41af-9bad-1a8bee733d84",
+      "title": "技術と向き合う成長の軌跡",
+      "abstract": "きょうかい 揺さぶる 推奨 延長 はっぽう. 機嫌 報じる 以下 雇用 あわ びんぼう 主観的 たいりく ぼうず 毎日. くら 紛らわしい お盆 ふうふ 希望する りゃくず 非難 こくふくする 鶴.\r\n\r\n写す 伐採 さわやか ねばる せっとく なおさら 九日 じどうし 特殊. シアトルし 太る シアトルし. 気持ちいい 縮小 ようい.\r\n\r\nきいろ 貴賓 空き缶 賛成. かたみち じっかん れつあく けす. さくにゅう はりい 奔放 にゅうせき かいせい.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T16:00:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "長尾 友美",
+        "kana": "アベ ユカ",
+        "twitter": "l7n_vdelgi80",
+        "avatar_url": "https://i.pravatar.cc/200?u=1566180719"
+      },
+      "fav": false,
+      "fav_count": 2,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "55023210-2c92-4c69-82fd-4f06ae3b9093",
+      "url": "https://fortee.jp/dummy-event/proposal/55023210-2c92-4c69-82fd-4f06ae3b9093",
+      "title": "失敗から得た学びの共有を考える",
+      "abstract": "雇用 廃墟 しきもう. 入江 しめらせる 見当たる 廃棄 しょうじょう 博物館 よすみ かいそく. さと 憂い しょうかする 碁 傑作 はなじ 原因 天井.\r\n\r\n扇 嫌 そんざい かんしん ふうふ 境 旧姓 げんめつ. 差し上げる きょだい 山葵 とうほう. たいこうする けいじばん あっとうする たいやく 燃やす ちんもく 牛乳 はきだす 締まる まつ.\r\n\r\nじぞう ざんぴん かいじゅう 華やか 色々 じょうきゅう ふくぶくろ 愛する はじめて むく. 順序 すける まつり さいばん. りょこう 初めに 出かける みさき.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T16:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "井口 幸子",
+        "kana": "イノウエ ショウタ",
+        "twitter": "l7qts4_hlzkdk",
+        "avatar_url": "https://i.pravatar.cc/200?u=191654934"
+      },
+      "fav": false,
+      "fav_count": 4,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "7ff19f02-05c7-4447-a83c-56262a71294e",
+      "url": "https://fortee.jp/dummy-event/proposal/7ff19f02-05c7-4447-a83c-56262a71294e",
+      "title": "チームで考える学びの共有",
+      "abstract": "解説 胃腸 移譲 約する. いままで はちまき 約 きもち あらしお 魔術 電源 魔法. ごじゅう じどうし 瞬く ねんがん 仕事.\r\n\r\nいさぎよい 浸す 通す 帳簿 特殊 走り回る はかる. 防犯 しつ 満潮 とうさく ししょく しょくん 消す たいりく 冬休み. あつかい よそく 礎 枕 はなじ 委員 アメリカ製 移動 駆け出す.\r\n\r\n溶岩 泳ぐ 不健康 ししょく かわかす はんだんする. じっかん 化粧 あさねぼう 桜色. まもる かんせつ しょくん 初めに りゃくず 巡回 だいがくいんせい けいじばん あまる.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T16:30:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "今井 杏",
+        "kana": "ササキ シンジ",
+        "twitter": "l7nlh7r5rn5c",
+        "avatar_url": "https://i.pravatar.cc/200?u=1976881532"
+      },
+      "fav": false,
+      "fav_count": 4,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1976881532",
+      "blog_url": "https://example.com/blog/1976881532"
+    },
+    {
+      "type": "talk",
+      "uuid": "67478967-a072-4d75-8647-96442fbf14c8",
+      "url": "https://fortee.jp/dummy-event/proposal/67478967-a072-4d75-8647-96442fbf14c8",
+      "title": "キャリアを支える生存戦略の実践",
+      "abstract": "こうおつ ふじん 数える わかめ しゃこ ふくせん. 馬 とりあえず 馬 洋服 ざんぴん. のむ ひがい おうしゅう はやて とむ かわさき 待遇 たまご.\r\n\r\nじゅうどう しどう 救急車 こうつう にんい ハチのす. ねばる フランス語 こはん 渦巻き 伝統 舞踏 所 じぞう. 高値 かぶしきしじょう もちいる 所 きずつく 憂い 解説 床 廃棄.\r\n\r\n数える ふん しょひょう 味噌 栄誉. 胃腸 きょうかい きょうしつ 数える ちがい いし. 零す 焦がす 皇太子妃 おかね 競艇.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T17:00:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "アンカンファレンス",
+          "color_text": "#ffffff",
+          "color_background": "#ff8f00"
+        }
+      ],
+      "speaker": {
+        "name": "米山 真由美",
+        "kana": "コバヤシ エミ",
+        "twitter": "hm2tq565",
+        "avatar_url": "https://i.pravatar.cc/200?u=1873619028"
+      },
+      "fav": false,
+      "fav_count": 11,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1873619028",
+      "blog_url": "https://example.com/blog/1873619028"
+    },
+    {
+      "type": "talk",
+      "uuid": "119ccc15-24db-43e8-8301-bfc84492201b",
+      "url": "https://fortee.jp/dummy-event/proposal/119ccc15-24db-43e8-8301-bfc84492201b",
+      "title": "変化する時代の学びの共有と向き合う",
+      "abstract": "交錯 さと かんぜん 乗せる. たいこうする 先週 せんじょうざい. ぶそう へいがい 公共 どうめい 運 あさねぼう せいぞう 思い遣り しどう 委員.\r\n\r\nしっぷう 好奇心 ごらん こい 悲しみ ろくおん くまもとけん 新婚旅行 壁. 六 枕 かん めいしょ. ざせき 色々 皇太子妃 ひがい こうつう たくす 察知 ふん がくふ 機嫌.\r\n\r\nふかさ ひめさま 提案する 構える かいたく 提案する しりつ あらかじめ. 指定する なみだ ひがい. 日没 華やか せんりゅう 渦巻き 塾生 累進 あらあらしい 歯を磨く 恨み.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T17:00:00+09:00",
+      "length_min": 20,
+      "tags": [],
+      "speaker": {
+        "name": "永井 由美子",
+        "kana": "ヤマダ ハナコ",
+        "avatar_url": "https://i.pravatar.cc/200?u=1973306031"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "adfb7731-2a08-4b3c-b0f7-d13b08464909",
+      "url": "https://fortee.jp/dummy-event/proposal/adfb7731-2a08-4b3c-b0f7-d13b08464909",
+      "title": "現場で学んだスキルの磨き方",
+      "abstract": "喜劇 体重 おりめ だくりゅう. せっとく 封筒 なおさら 不況. 閉める じゅうらい 封筒 かんしん 憶測 奔放 ほんるいだ.\r\n\r\nむぜい 丼 奉仕 乾燥 濃紺 〜亭 ゆれる ちらかす 栞 悲しみ. こうぎょう きょうふ きひん 譜面. がいよう 煩い 延長 もはん ごらん じぞう.\r\n\r\n推奨 いきどおり 秘める さと. ゆるむ がくふ 施設 あらしお そんざい. 前 つみ たいりく 普及 たくす.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T17:20:00+09:00",
+      "length_min": 30,
+      "tags": [],
+      "speaker": {
+        "name": "北川 七海",
+        "kana": "マツモト アカネ",
+        "avatar_url": "https://i.pravatar.cc/200?u=564923953"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "talk",
+      "uuid": "68fae788-6814-4052-b238-765e486ee5c8",
+      "url": "https://fortee.jp/dummy-event/proposal/68fae788-6814-4052-b238-765e486ee5c8",
+      "title": "技術と向き合う働き方の選択を語る",
+      "abstract": "たい 濃紺 すいせん. ごうけん ようじ 長唄 かんそく 迫る ひきざん 飽くまでも. 高瀬 めいわくメール たす うえる 誓い.\r\n\r\nむく のむ 洗剤 馬 はなはだ. 隆起 きげんご さいげつ 弱点 みなと 評価 性格 ほんるいだ. つくる はりい いう 人性 しめらせる.\r\n\r\nふくし 蛇 すいせん 救急車 ちゅうとはんぱ じょうだん あらしお. 主観的 え せいめい. 十台 移譲 くまもとけん かんどうする.",
+      "accepted": true,
+      "track": {
+        "name": "Track B",
+        "sort": 2
+      },
+      "starts_at": "2025-03-09T17:30:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "アンカンファレンス",
+          "color_text": "#ffffff",
+          "color_background": "#ff8f00"
+        }
+      ],
+      "speaker": {
+        "name": "米田 淳",
+        "kana": "カトウ ミサキ",
+        "twitter": "fse97",
+        "avatar_url": "https://i.pravatar.cc/200?u=1967010549"
+      },
+      "fav": false,
+      "fav_count": 9,
+      "feedback": {
+        "open": false
+      },
+      "slide_url": "https://example.com/slides/1967010549"
+    },
+    {
+      "type": "talk",
+      "uuid": "ba1b6316-e014-4a23-9b68-b0bddffefb1e",
+      "url": "https://fortee.jp/dummy-event/proposal/ba1b6316-e014-4a23-9b68-b0bddffefb1e",
+      "title": "エンジニアとしての挑戦と変容のすすめ",
+      "abstract": "歌謡 のぞいて きづく 競艇 みぎて ぶっきょう. あさねぼう 地下街 こうぎょう 歯を磨く ぶそう. 仕事 むく 没落 せいしん うごき 伝統 すんか 哺育.\r\n\r\n先ず 江戸 超音波 ゆるむ ねんがじょう りゃくず 杏. せいぞう 敬語 迷子 左右 しょうじょう 残業 薬 機嫌. ひきざん よくあつ かんじる あさねぼう 上手 じゅうどう 運 うち 米国 はなはだ.\r\n\r\n辛子 母 徳川 たつ 下さい. 大間違い 一生 病院 寮生 髪の毛 はかる ふじん 話 譜面. はいき だいどころ はんそう.",
+      "accepted": true,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T18:00:00+09:00",
+      "length_min": 20,
+      "tags": [
+        {
+          "name": "スポンサー",
+          "color_text": "#ffffff",
+          "color_background": "#3e97ff"
+        }
+      ],
+      "speaker": {
+        "name": "瀬戸 花音",
+        "kana": "ヨシダ ヒロシ"
+      },
+      "fav": false,
+      "fav_count": 0,
+      "feedback": {
+        "open": false
+      }
+    },
+    {
+      "type": "timeslot",
+      "uuid": "ac001e76-3d09-4229-81c6-e542d8a9be1e",
+      "title": "クロージングトーク",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T18:20:00+09:00",
+      "length_min": 10
+    },
+    {
+      "type": "timeslot",
+      "uuid": "490f1682-3c1b-42c1-90d5-239a9e36edee",
+      "title": "懇親会",
+      "abstract": null,
+      "track": {
+        "name": "Track A",
+        "sort": 1
+      },
+      "starts_at": "2025-03-09T18:30:00+09:00",
+      "length_min": 120
+    }
+  ]
+}

@@ -23,7 +23,38 @@ APIを利用する際は、fortee本体の利用規約やマナーを遵守し�
 
 ## 使い方
 
-`dist-types/*.ts`をコピペすることが一番単純です。
+### ピュアTypeScript型定義を使う（Zod依存なし）
+
+`dist-types/` 配下のファイルをプロジェクトにコピペすることが一番単純です。
+
+利用可能な型定義ファイル:
+- `common.ts` - 共通型（プロポーザルやスピーカーなど）
+- `proposals.ts` - プロポーザル一覧
+- `sponsors.ts` - スポンサー一覧
+- `staff.ts` - スタッフ一覧
+- `timetable.ts` - タイムテーブル
+- `tracks.ts` - トラック一覧
+
+### Zodスキーマを使う
+
+バリデーション付きで利用したい場合は、`src/schemas/` 配下のZodスキーマを直接利用できます。
 
 ## 貢献について
 forteeのAPIはイベントごとに拡張されたり、新しいエンドポイントが追加されたりすることがあります。 「この型が足りない」「仕様が変わっている」などの修正を見つけた場合は、ぜひPull RequestやIssueでの報告をお待ちしております。
+
+ダミーデータが`sample/masked`にあります。
+
+次のコマンドでスキーマファイルのチェックができます。
+```sh
+npm run validate -- masked
+```
+
+### 他のコマンド
+
+```bash
+npm run validate                     # kinoko-2025 でバリデーション（デフォルト）
+npm run validate -- <event-slug>     # 指定イベントでバリデーション
+npm run generate                     # dist-types/ にピュアTS型定義を生成
+FORTEE_COOKIE='...' npm run fetch -- <event-slug>  # fortee APIからサンプルデータ取得
+npm run mask # maskデータ作成
+```

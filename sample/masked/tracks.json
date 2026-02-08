@@ -1,0 +1,19 @@
+{
+  "tracks": [
+    {
+      "id": "328e9d1b-c657-4ac9-a23f-c545b0ae204f",
+      "name": "Track A",
+      "hashtag": "#きのこ2025_a"
+    },
+    {
+      "id": "00205335-717e-4c15-a821-6c703eb7a3b2",
+      "name": "Track B",
+      "hashtag": "#きのこ2025_b"
+    },
+    {
+      "id": "9d80af81-edc5-4759-ac04-c108558d41a9",
+      "name": "きのこトークスペース",
+      "hashtag": "#きのこ2025_t"
+    }
+  ]
+}

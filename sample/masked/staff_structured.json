@@ -1,0 +1,278 @@
+{
+  "staff_types": [
+    {
+      "name": "core",
+      "staff": [
+        {
+          "id": "13da65ca-bb60-4a93-b1bd-9184cc37bafa",
+          "name": "小西 健一",
+          "url": "https://twitter.com/tqe_lr5se2",
+          "avatar_url": "https://i.pravatar.cc/200?u=83627072"
+        },
+        {
+          "id": "d912802c-bd8a-4a84-b007-8c563a3e5e67",
+          "name": "小柳 樹",
+          "url": "https://twitter.com/lqd_kzvkdo64",
+          "avatar_url": "https://i.pravatar.cc/200?u=1589875237"
+        },
+        {
+          "id": "165f9f5a-b49f-4a2f-9c45-3ea48a21d417",
+          "name": "北原 昭二",
+          "url": "https://twitter.com/fjihm2_h7jn5c13",
+          "avatar_url": "https://i.pravatar.cc/200?u=1058152897"
+        },
+        {
+          "id": "1bcf2afd-1d87-4bf5-9754-cf7347b043fc",
+          "name": "村上 秀雄",
+          "url": "https://twitter.com/rdsiap",
+          "avatar_url": "https://i.pravatar.cc/200?u=1307120549"
+        },
+        {
+          "id": "c60dcf7d-ae8d-4f1a-9f66-987433989ce4",
+          "name": "田代 楓",
+          "url": "https://twitter.com/mycu0j_hnpssu67",
+          "avatar_url": "https://i.pravatar.cc/200?u=1057431578"
+        },
+        {
+          "id": "789aeb5f-f37e-4301-840b-d7e176dc7ef1",
+          "name": "和田 正一",
+          "url": "https://twitter.com/vcrqxvi1c_lptlg",
+          "avatar_url": "https://i.pravatar.cc/200?u=1315791310"
+        },
+        {
+          "id": "09a33596-50cd-4397-b8b2-c913c00ee020",
+          "name": "大槻 結菜",
+          "url": "https://twitter.com/g3ci1c44",
+          "avatar_url": "https://i.pravatar.cc/200?u=267126658"
+        },
+        {
+          "id": "c86679ef-f4cc-477a-83c1-c45247dff1cb",
+          "name": "福本 大翔",
+          "url": "https://twitter.com/p72fkzi1c5",
+          "avatar_url": "https://i.pravatar.cc/200?u=1582567861"
+        },
+        {
+          "id": "0655530f-d2ee-4433-bcb1-55b0e19c5139",
+          "name": "小出 正三",
+          "url": "https://twitter.com/viln4v47",
+          "avatar_url": "https://i.pravatar.cc/200?u=1348869356"
+        },
+        {
+          "id": "939cb1ad-dcc5-424a-82d2-bc5c0ba85eaf",
+          "name": "柳沢 悠太",
+          "url": "https://twitter.com/hlzfkb_lasgzt89",
+          "avatar_url": "https://i.pravatar.cc/200?u=292073877"
+        },
+        {
+          "id": "95a1f619-c671-464f-8608-9583fb6c065e",
+          "name": "竹田 優子",
+          "url": "https://twitter.com/9mw9nj_i9dkl5",
+          "avatar_url": "https://i.pravatar.cc/200?u=1985756613"
+        },
+        {
+          "id": "eb657e87-9c6a-4341-968b-c30d922c7b0c",
+          "name": "菅 正雄",
+          "url": "https://twitter.com/o44glliap",
+          "avatar_url": "https://i.pravatar.cc/200?u=2143877119"
+        },
+        {
+          "id": "e38ac787-5a34-4d26-9ab1-8b97912fe9f3",
+          "name": "志村 真由",
+          "url": "https://twitter.com/gp8hm3_ldkn5c15",
+          "avatar_url": "https://i.pravatar.cc/200?u=9837467"
+        },
+        {
+          "id": "214bec4a-1021-4f99-9758-54044fc5764e",
+          "name": "篠原 雄大",
+          "url": "https://twitter.com/lm1feohm1ssu",
+          "avatar_url": "https://i.pravatar.cc/200?u=1880371080"
+        },
+        {
+          "id": "d9c99679-969e-4825-af8b-a87bb64b3228",
+          "name": "黒木 涼太",
+          "url": "https://twitter.com/k5q_kepn5c",
+          "avatar_url": "https://i.pravatar.cc/200?u=1654153196"
+        }
+      ]
+    },
+    {
+      "name": "1day",
+      "staff": [
+        {
+          "id": "d41d417b-4194-4bd5-a478-4f44a0ff5198",
+          "name": "片桐 優花",
+          "url": "https://twitter.com/mefi1cu7jhga",
+          "avatar_url": "https://i.pravatar.cc/200?u=696657668"
+        },
+        {
+          "id": "11f44d92-bae7-4547-816a-2a26f2687011",
+          "name": "稲田 瞳",
+          "url": "https://twitter.com/gd9i1cmferp3",
+          "avatar_url": "https://i.pravatar.cc/200?u=932947434"
+        },
+        {
+          "id": "93497f4f-2e5f-48ce-b122-edcaa042f25b",
+          "name": "小泉 芽依",
+          "url": "https://twitter.com/gp8fhb0",
+          "avatar_url": "https://i.pravatar.cc/200?u=1936766036"
+        },
+        {
+          "id": "44db425f-6f53-4ab0-bbb7-fffe9ca103fb",
+          "name": "安達 麻美",
+          "url": "https://twitter.com/l7n_i9dg3p58",
+          "avatar_url": "https://i.pravatar.cc/200?u=436610087"
+        },
+        {
+          "id": "e652a9a8-30ad-4011-8ed6-f7463c91b866",
+          "name": "向井 三郎",
+          "url": "https://twitter.com/n5dfoz_kdotjn98",
+          "avatar_url": "https://i.pravatar.cc/200?u=1069198175"
+        },
+        {
+          "id": "f6d9a8e3-53d8-4aed-a5d4-ef91b694eff9",
+          "name": "杉本 陽菜",
+          "url": "https://twitter.com/j1xi1c86",
+          "avatar_url": "https://i.pravatar.cc/200?u=241477422"
+        },
+        {
+          "id": "14b87698-fa66-4c5f-8b85-b5376a3b50a5",
+          "name": "小谷 聡",
+          "url": "https://twitter.com/nj3n5dp72_hlzg3",
+          "avatar_url": "https://i.pravatar.cc/200?u=2042301887"
+        },
+        {
+          "id": "a26ab957-9ebb-4063-9117-2b9fadd5aee9",
+          "name": "高島 千代",
+          "url": "https://twitter.com/9m59nsffxid230",
+          "avatar_url": "https://i.pravatar.cc/200?u=64914525"
+        },
+        {
+          "id": "cc76fd16-f1c9-4c42-af8a-7d687081a594",
+          "name": "柳田 海斗"
+        },
+        {
+          "id": "06b6e4de-46db-47ca-9e35-fe16d110110a",
+          "name": "南 フミ",
+          "url": "https://twitter.com/p72g16_i6nm1w29",
+          "avatar_url": "https://i.pravatar.cc/200?u=8150088"
+        },
+        {
+          "id": "6a1254a4-bdb3-4c06-89e4-a05000c4cfbf",
+          "name": "土屋 明日香",
+          "url": "https://twitter.com/lmfk2flengkj"
+        },
+        {
+          "id": "835d83f4-c708-4ac6-ab22-11256ef3c6e5",
+          "name": "吉本 紀子",
+          "url": "https://twitter.com/lm1fgr_kdkfez",
+          "avatar_url": "https://i.pravatar.cc/200?u=705865250"
+        },
+        {
+          "id": "a3dc16f3-cd10-4eca-a312-a8ae1ea932ab",
+          "name": "小林 竜也",
+          "url": "https://twitter.com/km4_q4dglk59",
+          "avatar_url": "https://i.pravatar.cc/200?u=349159428"
+        },
+        {
+          "id": "9430f9b8-7f3e-4782-85cf-537d0ef226e3",
+          "name": "及川 悠太",
+          "url": "https://twitter.com/fse_feyn5c",
+          "avatar_url": "https://i.pravatar.cc/200?u=318467525"
+        },
+        {
+          "id": "ae26d452-1ad1-4062-b491-cf68e5bef019",
+          "name": "松尾 陽大",
+          "avatar_url": "https://i.pravatar.cc/200?u=1362155962"
+        },
+        {
+          "id": "94b8597d-5517-4324-a803-1ee3a58d42a3",
+          "name": "戸田 瑛太",
+          "url": "https://twitter.com/o6yr5ri7y94",
+          "avatar_url": "https://i.pravatar.cc/200?u=763209781"
+        },
+        {
+          "id": "12bfd19b-ed51-41e2-87a9-9fbc4d29e711",
+          "name": "水野 歩夢",
+          "url": "https://twitter.com/viln4v12",
+          "avatar_url": "https://i.pravatar.cc/200?u=1837927200"
+        },
+        {
+          "id": "65511c41-fb5e-4c49-a757-5ae81b06624c",
+          "name": "野中 絵美",
+          "url": "https://twitter.com/g16hmw99",
+          "avatar_url": "https://i.pravatar.cc/200?u=1819388517"
+        },
+        {
+          "id": "ab7fedd1-f9a2-4938-976f-bd0a2488f6c6",
+          "name": "浜野 美代子",
+          "url": "https://twitter.com/feon5j45",
+          "avatar_url": "https://i.pravatar.cc/200?u=1342297878"
+        },
+        {
+          "id": "36f5e602-d5ad-4c4d-b5b0-ebc7dae86d11",
+          "name": "谷川 祐介",
+          "url": "https://twitter.com/9m59nskd7kco",
+          "avatar_url": "https://i.pravatar.cc/200?u=1400551816"
+        },
+        {
+          "id": "c15810d4-f3f6-45ce-8c5d-66f120994d90",
+          "name": "工藤 彩香",
+          "url": "https://twitter.com/iuhptd_k4lul479",
+          "avatar_url": "https://i.pravatar.cc/200?u=227497798"
+        },
+        {
+          "id": "06b09ffa-dcca-4a94-a85e-40ef88c77bd7",
+          "name": "川原 真央",
+          "url": "https://twitter.com/p72oow_kfygin99",
+          "avatar_url": "https://i.pravatar.cc/200?u=1732718715"
+        },
+        {
+          "id": "e6888b52-3474-4fbc-8f0c-0adc7e16a873",
+          "name": "内藤 菜月",
+          "url": "https://twitter.com/iwzj6j71",
+          "avatar_url": "https://i.pravatar.cc/200?u=472718028"
+        },
+        {
+          "id": "c3b8f680-4a2f-4dc3-8ed9-4d7bb9f65d1c",
+          "name": "石黒 清",
+          "url": "https://twitter.com/nj3n5dp723",
+          "avatar_url": "https://i.pravatar.cc/200?u=1665819288"
+        },
+        {
+          "id": "6bcc37ec-98f9-4c4b-95c2-ef5d02ed1d2c",
+          "name": "石井 正雄",
+          "url": "https://twitter.com/rdsffxid2",
+          "avatar_url": "https://i.pravatar.cc/200?u=1210155527"
+        },
+        {
+          "id": "db823dfc-2e0d-40ea-a107-b6beb08406ea",
+          "name": "湯浅 茜"
+        },
+        {
+          "id": "7ce2cae9-fdf0-492d-b706-d12ce071152e",
+          "name": "五十嵐 佳奈",
+          "url": "https://twitter.com/j34_hlzn5c10",
+          "avatar_url": "https://i.pravatar.cc/200?u=872596099"
+        },
+        {
+          "id": "467ffee7-aef4-41cf-bcdb-7d6dd366413d",
+          "name": "梅田 由美子",
+          "url": "https://twitter.com/insts4oahffx",
+          "avatar_url": "https://i.pravatar.cc/200?u=311711315"
+        },
+        {
+          "id": "91d62142-5ef1-4ba4-9279-641733348a27",
+          "name": "森 優太",
+          "url": "https://twitter.com/k6li1crpmn5c",
+          "avatar_url": "https://i.pravatar.cc/200?u=2076510949"
+        },
+        {
+          "id": "768b2f29-a13a-49d9-8104-4455325c5c95",
+          "name": "町田 麻美",
+          "url": "https://twitter.com/mzfhm2_qg4gin8",
+          "avatar_url": "https://i.pravatar.cc/200?u=1500561072"
+        }
+      ]
+    }
+  ]
+}

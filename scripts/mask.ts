@@ -81,11 +81,35 @@ function maskSpeaker(speaker: any, entityUuid: string): any {
   return result;
 }
 
+function generateDummyTitle(seed: number): string {
+  faker.seed(seed);
+  const prefixes = [
+    "エンジニアとしての", "変化する時代の", "チームで考える",
+    "現場で学んだ", "失敗から得た", "10年後を見据えた",
+    "今こそ振り返る", "明日から使える", "キャリアを支える",
+    "技術と向き合う",
+  ];
+  const topics = [
+    "キャリア戦略", "成長の軌跡", "生存戦略", "学びの共有",
+    "働き方の選択", "スキルの磨き方", "組織との関わり方",
+    "挑戦と変容", "技術的負債との戦い", "チームビルディング",
+  ];
+  const suffixes = [
+    "について", "を語る", "〜私の場合〜", "のすすめ",
+    "と向き合う", "を考える", "の実践", "",
+  ];
+  const p = prefixes[seed % prefixes.length];
+  const t = topics[Math.floor(seed / prefixes.length) % topics.length];
+  const s = suffixes[Math.floor(seed / (prefixes.length * topics.length)) % suffixes.length];
+  return `${p}${t}${s}`;
+}
+
 function maskProposal(proposal: any): any {
+  const seed = uuidToSeed(proposal.uuid) + GLOBAL_SEED;
   const result: any = {
     uuid: proposal.uuid,
-    url: proposal.url,
-    title: proposal.title,
+    url: `https://fortee.jp/dummy-event/proposal/${proposal.uuid}`,
+    title: generateDummyTitle(seed),
     abstract: proposal.abstract,
     accepted: proposal.accepted,
     speaker: maskSpeaker(proposal.speaker, proposal.uuid),
@@ -114,9 +138,9 @@ function maskTimetableEntry(entry: any): any {
   const result: any = {
     type: entry.type,
     uuid: entry.uuid,
-    url: entry.url,
-    title: entry.title,
-    abstract: entry.abstract,
+    url: `https://fortee.jp/dummy-event/proposal/${entry.uuid}`,
+    title: generateDummyTitle(seed),
+    abstract: faker.lorem.paragraphs(3, "\r\n\r\n"),
     accepted: entry.accepted,
     track: entry.track,
     starts_at: entry.starts_at,
