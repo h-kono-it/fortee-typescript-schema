@@ -35,11 +35,11 @@ APIを利用する際は、fortee本体の利用規約やマナーを遵守し�
 - `timetable.ts` - タイムテーブル
 - `tracks.ts` - トラック一覧
 
+https://github.com/h-kono-it/fortee-typescript-schema/tree/main/dist-types
+
 ### Zodスキーマを使う
 
 バリデーション付きで利用したい場合は、`src/schemas/` 配下のZodスキーマを直接利用できます。
-
-https://github.com/h-kono-it/fortee-typescript-schema/tree/main/dist-types
 
 ## 貢献について
 forteeのAPIはイベントごとに拡張されたり、新しいエンドポイントが追加されたりすることがあります。 「この型が足りない」「仕様が変わっている」などの修正を見つけた場合は、ぜひPull RequestやIssueでの報告をお待ちしております。
