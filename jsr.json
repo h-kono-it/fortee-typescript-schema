@@ -1,0 +1,13 @@
+{
+  "name": "@hko/fortee-typescript-schema",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": {
+    "./common": "./dist-types/common.ts",
+    "./proposals": "./dist-types/proposals.ts",
+    "./sponsors": "./dist-types/sponsors.ts",
+    "./staff": "./dist-types/staff.ts",
+    "./timetable": "./dist-types/timetable.ts",
+    "./tracks": "./dist-types/tracks.ts"
+  }
+}

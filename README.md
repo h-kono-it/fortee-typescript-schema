@@ -23,12 +23,31 @@ APIを利用する際は、fortee本体の利用規約やマナーを遵守し�
 
 ## 使い方
 
-### ピュアTypeScript型定義を使う（Zod依存なし）
+### JSR からインストール（推奨）
 
-`dist-types/` 配下のファイルをプロジェクトにコピペすることが一番単純です。
+```bash
+# npm
+npx jsr add @hko/fortee-typescript-schema
+
+# Deno
+deno add jsr:@hko/fortee-typescript-schema
+```
+
+```ts
+import type { Timetable } from "@hko/fortee-typescript-schema/timetable";
+import type { Proposals } from "@hko/fortee-typescript-schema/proposals";
+import type { Sponsors } from "@hko/fortee-typescript-schema/sponsors";
+import type { Staff } from "@hko/fortee-typescript-schema/staff";
+import type { Tracks } from "@hko/fortee-typescript-schema/tracks";
+import type { Speaker, Feedback } from "@hko/fortee-typescript-schema/common";
+```
+
+### ピュアTypeScript型定義をコピーして使う
+
+`dist-types/` 配下のファイルをプロジェクトにコピペすることもできます。
 
 利用可能な型定義ファイル:
-- `common.ts` - 共通型（プロポーザルやスピーカーなど）
+- `common.ts` - 共通型（スピーカー、フィードバックなど）
 - `proposals.ts` - プロポーザル一覧
 - `sponsors.ts` - スポンサー一覧
 - `staff.ts` - スタッフ一覧
