@@ -24,6 +24,7 @@ APIを利用する際は、fortee本体の利用規約やマナーを遵守し�
 ## 使い方
 
 `dist-types/*.ts`をコピペすることが一番単純です。
+
 https://github.com/h-kono-it/fortee-typescript-schema/tree/main/dist-types
 
 ## 貢献について
