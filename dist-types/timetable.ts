@@ -2,6 +2,7 @@
  * fortee APIのタイムテーブル関連の型定義。カンファレンスのスケジュール情報の型を提供します。
  * @module
  */
+/** タグ情報 */
 export type Tag = {
         /** タグ名 */
         name: string;
@@ -10,6 +11,7 @@ export type Tag = {
         /** 背景色 */
         color_background: string;
     };
+/** タイムテーブルのタイムスロット情報 */
 export type TimetableTimeslot = {
         /** エントリ種別 */
         type: "timeslot";
@@ -31,6 +33,7 @@ export type TimetableTimeslot = {
         /** 時間（分） */
         length_min: number;
     };
+/** タイムテーブルのトーク情報 */
 export type TimetableTalk = {
         /** エントリ種別 */
         type: "talk";
@@ -89,6 +92,7 @@ export type TimetableTalk = {
         /** ブログ記事URL */
         blog_url?: string | undefined;
     };
+/** タイムテーブルのエントリ（タイムスロットまたはトーク） */
 export type TimetableEntry = {
         /** エントリ種別 */
         type: "timeslot";
@@ -167,6 +171,7 @@ export type TimetableEntry = {
         /** ブログ記事URL */
         blog_url?: string | undefined;
     };
+/** タイムテーブル */
 export type Timetable = {
         /** タイムテーブルエントリ一覧 */
         timetable: ({

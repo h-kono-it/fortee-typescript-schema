@@ -2,6 +2,7 @@
  * fortee APIのスポンサー関連の型定義。カンファレンスのスポンサー情報の型を提供します。
  * @module
  */
+/** スポンサー情報 */
 export type Sponsor = {
         /** スポンサーID */
         id: string;
@@ -18,6 +19,7 @@ export type Sponsor = {
         /** アバター画像URL */
         avatar?: string | undefined;
     };
+/** スポンサープラン情報 */
 export type SponsorPlan = {
         /** プラン名 */
         name: string;
@@ -41,6 +43,7 @@ export type SponsorPlan = {
             avatar?: string | undefined;
         }[];
     };
+/** スポンサー一覧 */
 export type Sponsors = {
         /** スポンサープラン一覧 */
         sponsor_plans: {

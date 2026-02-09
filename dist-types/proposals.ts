@@ -2,6 +2,7 @@
  * fortee APIのプロポーザル関連の型定義。セッション応募情報の型を提供します。
  * @module
  */
+/** プロポーザル（セッション応募）情報 */
 export type Proposal = {
         /** プロポーザルID */
         uuid: string;
@@ -45,6 +46,7 @@ export type Proposal = {
         /** ブログ記事URL */
         blog_url?: string | undefined;
     };
+/** プロポーザル一覧 */
 export type Proposals = {
         /** プロポーザル一覧 */
         proposals: {

@@ -33,6 +33,7 @@ const outputDir = resolve(import.meta.dirname, "../dist-types");
 // 1ファイルに関連する型をまとめる
 interface TypeDef {
   name: string;
+  doc: string;
   schema: ZodType;
 }
 
@@ -48,10 +49,10 @@ const fileGroups: FileGroup[] = [
     moduleDoc:
       "fortee APIの共通型定義。Speaker, Feedbackなど複数のエンドポイントで共通して使われる型を提供します。",
     types: [
-      { name: "Speaker", schema: SpeakerSchema },
-      { name: "Feedback", schema: FeedbackSchema },
-      { name: "ProposalTimetable", schema: ProposalTimetableSchema },
-      { name: "TimetableTrack", schema: TimetableTrackSchema },
+      { name: "Speaker", doc: "スピーカー情報", schema: SpeakerSchema },
+      { name: "Feedback", doc: "フィードバック情報", schema: FeedbackSchema },
+      { name: "ProposalTimetable", doc: "プロポーザルのタイムテーブル情報", schema: ProposalTimetableSchema },
+      { name: "TimetableTrack", doc: "タイムテーブルのトラック情報", schema: TimetableTrackSchema },
     ],
   },
   {
@@ -59,8 +60,8 @@ const fileGroups: FileGroup[] = [
     moduleDoc:
       "fortee APIのプロポーザル関連の型定義。セッション応募情報の型を提供します。",
     types: [
-      { name: "Proposal", schema: ProposalSchema },
-      { name: "Proposals", schema: ProposalsSchema },
+      { name: "Proposal", doc: "プロポーザル（セッション応募）情報", schema: ProposalSchema },
+      { name: "Proposals", doc: "プロポーザル一覧", schema: ProposalsSchema },
     ],
   },
   {
@@ -68,8 +69,8 @@ const fileGroups: FileGroup[] = [
     moduleDoc:
       "fortee APIのトラック関連の型定義。カンファレンスのトラック情報の型を提供します。",
     types: [
-      { name: "Track", schema: TrackSchema },
-      { name: "Tracks", schema: TracksSchema },
+      { name: "Track", doc: "トラック情報", schema: TrackSchema },
+      { name: "Tracks", doc: "トラック一覧", schema: TracksSchema },
     ],
   },
   {
@@ -77,11 +78,11 @@ const fileGroups: FileGroup[] = [
     moduleDoc:
       "fortee APIのタイムテーブル関連の型定義。カンファレンスのスケジュール情報の型を提供します。",
     types: [
-      { name: "Tag", schema: TagSchema },
-      { name: "TimetableTimeslot", schema: TimetableTimeslotSchema },
-      { name: "TimetableTalk", schema: TimetableTalkSchema },
-      { name: "TimetableEntry", schema: TimetableEntrySchema },
-      { name: "Timetable", schema: TimetableSchema },
+      { name: "Tag", doc: "タグ情報", schema: TagSchema },
+      { name: "TimetableTimeslot", doc: "タイムテーブルのタイムスロット情報", schema: TimetableTimeslotSchema },
+      { name: "TimetableTalk", doc: "タイムテーブルのトーク情報", schema: TimetableTalkSchema },
+      { name: "TimetableEntry", doc: "タイムテーブルのエントリ（タイムスロットまたはトーク）", schema: TimetableEntrySchema },
+      { name: "Timetable", doc: "タイムテーブル", schema: TimetableSchema },
     ],
   },
   {
@@ -89,9 +90,9 @@ const fileGroups: FileGroup[] = [
     moduleDoc:
       "fortee APIのスポンサー関連の型定義。カンファレンスのスポンサー情報の型を提供します。",
     types: [
-      { name: "Sponsor", schema: SponsorSchema },
-      { name: "SponsorPlan", schema: SponsorPlanSchema },
-      { name: "Sponsors", schema: SponsorsSchema },
+      { name: "Sponsor", doc: "スポンサー情報", schema: SponsorSchema },
+      { name: "SponsorPlan", doc: "スポンサープラン情報", schema: SponsorPlanSchema },
+      { name: "Sponsors", doc: "スポンサー一覧", schema: SponsorsSchema },
     ],
   },
   {
@@ -99,9 +100,9 @@ const fileGroups: FileGroup[] = [
     moduleDoc:
       "fortee APIのスタッフ関連の型定義。カンファレンスの運営スタッフ情報の型を提供します。",
     types: [
-      { name: "StaffMember", schema: StaffMemberSchema },
-      { name: "StaffType", schema: StaffTypeSchema },
-      { name: "Staff", schema: StaffSchema },
+      { name: "StaffMember", doc: "スタッフメンバー情報", schema: StaffMemberSchema },
+      { name: "StaffType", doc: "スタッフ種別情報", schema: StaffTypeSchema },
+      { name: "Staff", doc: "スタッフ一覧", schema: StaffSchema },
     ],
   },
   // {
@@ -124,7 +125,7 @@ for (const { fileName, moduleDoc, types } of fileGroups) {
 
   const store = createAuxiliaryTypeStore();
 
-  for (const { name, schema } of types) {
+  for (const { name, doc, schema } of types) {
     // 1. name は渡さず、schema と options(store) だけを渡す
     // ※このバージョンの zodToTs は pure な TypeNode を返す役割に徹しています
     const { node } = zodToTs(schema as any, { auxiliaryTypeStore: store });
@@ -134,6 +135,7 @@ for (const { fileName, moduleDoc, types } of fileGroups) {
       name: name, // ここで型名を指定
       type: printNode(node),
       isExported: true,
+      docs: [{ description: doc }],
     });
   }
 
