@@ -1,3 +1,7 @@
+/**
+ * fortee APIのトラック関連の型定義。カンファレンスのトラック情報の型を提供します。
+ * @module
+ */
 export type Track = {
         /** トラックID */
         id: string;

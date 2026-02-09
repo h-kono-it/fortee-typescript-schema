@@ -38,12 +38,15 @@ interface TypeDef {
 
 interface FileGroup {
   fileName: string;
+  moduleDoc: string;
   types: TypeDef[];
 }
 
 const fileGroups: FileGroup[] = [
   {
     fileName: "common.ts",
+    moduleDoc:
+      "fortee APIの共通型定義。Speaker, Feedbackなど複数のエンドポイントで共通して使われる型を提供します。",
     types: [
       { name: "Speaker", schema: SpeakerSchema },
       { name: "Feedback", schema: FeedbackSchema },
@@ -53,6 +56,8 @@ const fileGroups: FileGroup[] = [
   },
   {
     fileName: "proposals.ts",
+    moduleDoc:
+      "fortee APIのプロポーザル関連の型定義。セッション応募情報の型を提供します。",
     types: [
       { name: "Proposal", schema: ProposalSchema },
       { name: "Proposals", schema: ProposalsSchema },
@@ -60,6 +65,8 @@ const fileGroups: FileGroup[] = [
   },
   {
     fileName: "tracks.ts",
+    moduleDoc:
+      "fortee APIのトラック関連の型定義。カンファレンスのトラック情報の型を提供します。",
     types: [
       { name: "Track", schema: TrackSchema },
       { name: "Tracks", schema: TracksSchema },
@@ -67,6 +74,8 @@ const fileGroups: FileGroup[] = [
   },
   {
     fileName: "timetable.ts",
+    moduleDoc:
+      "fortee APIのタイムテーブル関連の型定義。カンファレンスのスケジュール情報の型を提供します。",
     types: [
       { name: "Tag", schema: TagSchema },
       { name: "TimetableTimeslot", schema: TimetableTimeslotSchema },
@@ -77,6 +86,8 @@ const fileGroups: FileGroup[] = [
   },
   {
     fileName: "sponsors.ts",
+    moduleDoc:
+      "fortee APIのスポンサー関連の型定義。カンファレンスのスポンサー情報の型を提供します。",
     types: [
       { name: "Sponsor", schema: SponsorSchema },
       { name: "SponsorPlan", schema: SponsorPlanSchema },
@@ -85,6 +96,8 @@ const fileGroups: FileGroup[] = [
   },
   {
     fileName: "staff.ts",
+    moduleDoc:
+      "fortee APIのスタッフ関連の型定義。カンファレンスの運営スタッフ情報の型を提供します。",
     types: [
       { name: "StaffMember", schema: StaffMemberSchema },
       { name: "StaffType", schema: StaffTypeSchema },
@@ -100,12 +113,14 @@ const fileGroups: FileGroup[] = [
   // },
 ];
 
-for (const { fileName, types } of fileGroups) {
+for (const { fileName, moduleDoc, types } of fileGroups) {
   const sourceFile = project.createSourceFile(
     resolve(outputDir, fileName),
     "",
     { overwrite: true },
   );
+
+  sourceFile.insertText(0, `/**\n * ${moduleDoc}\n * @module\n */\n\n`);
 
   const store = createAuxiliaryTypeStore();
 

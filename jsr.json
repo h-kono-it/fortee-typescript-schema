@@ -1,7 +1,9 @@
 {
   "name": "@hko/fortee-typescript-schema",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
+  "description": "fortee（技術カンファレンス支援プラットフォーム）APIの非公式TypeScript型定義",
+  "runtimes": ["deno", "node", "bun", "browser"],
   "exports": {
     "./common": "./dist-types/common.ts",
     "./proposals": "./dist-types/proposals.ts",

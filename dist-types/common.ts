@@ -1,3 +1,7 @@
+/**
+ * fortee APIの共通型定義。Speaker, Feedbackなど複数のエンドポイントで共通して使われる型を提供します。
+ * @module
+ */
 export type Speaker = {
         /** スピーカー名 */
         name: string;

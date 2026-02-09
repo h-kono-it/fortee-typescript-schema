@@ -1,3 +1,7 @@
+/**
+ * fortee APIのタイムテーブル関連の型定義。カンファレンスのスケジュール情報の型を提供します。
+ * @module
+ */
 export type Tag = {
         /** タグ名 */
         name: string;
